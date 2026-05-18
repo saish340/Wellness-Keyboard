@@ -1,0 +1,53 @@
+# Gradle
+/.gradle
+/build
+/app/build
+
+# Local configuration
+local.properties
+.idea/
+.gradle/
+
+# Android
+*.iml
+/.externalNativeBuild
+/captures
+/output.json
+*.keystore
+
+# Kotlin/Java
+*.class
+*.jar
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Node
+node_modules/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# TensorFlow Lite artifacts
+*.tflite
+
+# Large build artifacts
+gradle.zip
+
+# Misc
+.DS_Store
+thumbs.db

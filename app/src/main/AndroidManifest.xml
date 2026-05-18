@@ -4,7 +4,8 @@
         android:name=".WellnessApp"
         android:allowBackup="false"
         android:label="Wellness Keyboard"
-        android:supportsRtl="true">
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WellnessKeyboard">
 
         <activity
             android:name=".ui.MainActivity"

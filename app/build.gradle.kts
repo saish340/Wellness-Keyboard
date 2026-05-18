@@ -8,6 +8,12 @@ android {
     namespace = "com.example.wellnesskeyboard"
     compileSdk = 34
 
+    packaging {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
+
     defaultConfig {
         applicationId = "com.example.wellnesskeyboard"
         minSdk = 24
